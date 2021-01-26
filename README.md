@@ -5,6 +5,7 @@ where YEAR is a valid integer
 Example usage:
 
 $ python leap\_year\_error_checking.py 2012
+
 2012 is a leap year
 
 Flowchart diagram for the program:
