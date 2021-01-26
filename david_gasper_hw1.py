@@ -18,8 +18,11 @@ import sys
 if (len(sys.argv) != 2):
 	print ("Incorrect number of arguments supplied!")
 else:
-	year = int(sys.argv[1])
-	if (year % 4 == 0 and not(year % 100 == 0) and not(year % 400 == 0)):
-		print (str(year) + " is a leap year")
-	else:
-		print (str(year) + " is not a leap year")
+	try:
+		year = int(sys.argv[1])
+		if (year % 4 == 0 and not(year % 100 == 0) and not(year % 400 == 0)):
+			print (str(year) + " is a leap year")
+		else:
+			print (str(year) + " is not a leap year")
+	except ValueError:
+		print ("Argument is not a valid year!")
