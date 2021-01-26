@@ -1,5 +1,7 @@
 To run this program, use the following command:
+
 python leap\_year\_error_checking.py YEAR
+
 where YEAR is a valid integer
 
 Example usage:
